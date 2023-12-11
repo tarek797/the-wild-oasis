@@ -98,7 +98,6 @@ function Pagination({ count }) {
           <HiChevronLeft />
           <span>Previous</span>
         </PaginationButton>
-        {console.log(currentPage, pageCount)}
         <PaginationButton
           onClick={nextPage}
           disabled={currentPage === pageCount}
