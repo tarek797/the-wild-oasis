@@ -30,7 +30,7 @@ function App() {
       <GlobalStyles />
       <BrowserRouter>
         <Routes>
-          <Route
+          <Route 
             element={
               <ProtectedRoute>
                 <AppLayout />
